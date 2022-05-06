@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -84,38 +83,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eu7-vO-wt1">
+                                <rect key="frame" x="20" y="340" width="388" height="512"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rZy-ym-JIV">
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nem-ab-Eqe">
+                                                <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qln-pd-Tea">
+                                                <rect key="frame" x="132.66666666666666" y="0.0" width="122.66666666666666" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-7z-cnc">
+                                                <rect key="frame" x="265.33333333333331" y="0.0" width="122.66666666666669" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ul1-q6-dGF">
+                                        <rect key="frame" x="0.0" y="128" width="388" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQu-yI-RW4">
+                                                <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jqd-3J-OPs">
+                                                <rect key="frame" x="132.66666666666666" y="0.0" width="122.66666666666666" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Li-be-aVd">
+                                                <rect key="frame" x="265.33333333333331" y="0.0" width="122.66666666666669" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uR6-4Z-Ok5">
+                                        <rect key="frame" x="0.0" y="256" width="388" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B88-be-GGd">
+                                                <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-cv-LZl">
+                                                <rect key="frame" x="132.66666666666666" y="0.0" width="122.66666666666666" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LK-xs-Bp6">
+                                                <rect key="frame" x="265.33333333333331" y="0.0" width="122.66666666666669" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zCp-Jp-zkw">
+                                        <rect key="frame" x="0.0" y="384" width="388" height="128"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsT-bf-iSk">
+                                                <rect key="frame" x="0.0" y="0.0" width="122.66666666666667" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-Nv-ZMw">
+                                                <rect key="frame" x="132.66666666666666" y="0.0" width="122.66666666666666" height="128"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LT1-Zj-SVq">
+                                                <rect key="frame" x="265.33333333333331" y="0.0" width="122.66666666666669" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbO-BR-A6G">
                                 <rect key="frame" x="91" y="88" width="246" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uLC-xt-4zh">
-                                <rect key="frame" x="20" y="366" width="388" height="526"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qIB-gD-KSB">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wF9-Ng-kDo">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ttX-G2-h2A">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Pr-01-adw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="eu7-vO-wt1" firstAttribute="leading" secondItem="8Pr-01-adw" secondAttribute="leading" constant="20" id="2Vj-T5-mN0"/>
+                            <constraint firstItem="8Pr-01-adw" firstAttribute="trailing" secondItem="eu7-vO-wt1" secondAttribute="trailing" constant="20" id="3aQ-nZ-SUA"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bww-o4-iOB"/>
                     <connections>
+                        <outlet property="eightImageView" destination="qdf-cv-LZl" id="vVK-nc-Qzr"/>
+                        <outlet property="elevenImageView" destination="qgg-Nv-ZMw" id="xK3-Qf-Bip"/>
+                        <outlet property="fiveImageViews" destination="Jqd-3J-OPs" id="ST5-MB-Z6Z"/>
+                        <outlet property="fourImageView" destination="iQu-yI-RW4" id="b11-5R-36W"/>
+                        <outlet property="nineImageView" destination="5LK-xs-Bp6" id="MHP-61-lva"/>
+                        <outlet property="oneImageView" destination="nem-ab-Eqe" id="XPa-F0-Kmn"/>
+                        <outlet property="sevenImageView" destination="B88-be-GGd" id="ZFP-eN-iH6"/>
+                        <outlet property="sixImageView" destination="3Li-be-aVd" id="Hhe-Bq-2u5"/>
                         <outlet property="storedImage" destination="zbO-BR-A6G" id="YQB-ma-5jc"/>
+                        <outlet property="tenImageView" destination="fsT-bf-iSk" id="rEx-Nu-3dt"/>
+                        <outlet property="threeImageView" destination="NaD-7z-cnc" id="dhX-Mr-Fch"/>
+                        <outlet property="twelveImageView" destination="LT1-Zj-SVq" id="cpP-7R-Rsm"/>
+                        <outlet property="twoImageView" destination="qln-pd-Tea" id="HJf-Ch-T6a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fD-38-ejr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -129,7 +184,7 @@
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R5m-Rh-fpL">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -143,9 +198,6 @@
     </scenes>
     <resources>
         <image name="timer" width="860" height="1626"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

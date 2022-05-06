@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     
-    
-    
+    var firstImage: UIImage = UIImage(named: "timer")!
+    var picImages:[UIImage] = []
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         
@@ -32,17 +32,34 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let svc = segue.destination as! SecondViewController
-        
-       
+
             svc.newImage = newImageView.image
+        
+        svc.pics = picImages
+        
+//        if segue.identifier == "mySegue" {
+//
+//            let itemAdded = segue.destination as! OutfitCollectionViewCell
+//
+//            itemAdded.outfitImageViewLittle.image = newImageView.image
+//        }
+        
+        
+        
+    //    let ocv = segue.destination as! SecondViewController
+        
+       // ocv.pics
+        
+      //  ocv.pics.append
         
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
         myOutfitsButton.isEnabled = true
+        
     }
     
     @IBOutlet weak var myOutfitsButton: UIButton!
@@ -60,7 +77,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     }
   //  myOutfitsButton.isEnabled = true
     
-    @IBAction func onMyOutfitButtonTap(_ sender: AnyObject) { performSegue(withIdentifier: "mySegue", sender: nil)
+    @IBAction func onMyOutfitButtonTap(_ sender: AnyObject) {
+        
+        firstImage = newImageView.image ?? UIImage(named: "timer")!
+        
+        picImages.append(firstImage)
+        
+        
+        
+        performSegue(withIdentifier: "mySegue", sender: nil)
         
     }
     

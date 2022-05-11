@@ -100,83 +100,98 @@ class SecondViewController: UIViewController
             threeImageView.image = pics[2]
             twoImageView.image = pics[1]
             oneImageView.image = pics[0]
-//        case 4:
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 5:
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 6:
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 7:
-//            eightImageView.image = pics[6]
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 8:
-//            nineImageView.image = pics[7]
-//            eightImageView.image = pics[6]
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 9:
-//            tenImageView.image = pics[8]
-//            nineImageView.image = pics[7]
-//            eightImageView.image = pics[6]
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 10:
-//            elevenImageView.image = pics[9]
-//            tenImageView.image = pics[8]
-//            nineImageView.image = pics[7]
-//            eightImageView.image = pics[6]
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-//        case 11:
-//            twelveImageView.image = pics[10]
-//            elevenImageView.image = pics[9]
-//            tenImageView.image = pics[8]
-//            nineImageView.image = pics[7]
-//            eightImageView.image = pics[6]
-//            sevenImageView.image = pics[5]
-//            sixImageView.image = pics[4]
-//            fiveImageViews.image = pics[3]
-//            fourImageView.image = pics[2]
-//            threeImageView.image = pics[1]
-//            twoImageView.image = pics[0]
-//            oneImageView.image = UIImage(named: "timer")
-      // case 12:
+        case 4:
+
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 5:
+
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 6:
+
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 7:
+
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 8:
+
+            eightImageView.image = pics[7]
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 9:
+
+            nineImageView.image = pics[8]
+            eightImageView.image = pics[7]
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 10:
+
+            tenImageView.image = pics[9]
+            nineImageView.image = pics[8]
+            eightImageView.image = pics[7]
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+        case 11:
+
+            elevenImageView.image = pics[10]
+            tenImageView.image = pics[9]
+            nineImageView.image = pics[8]
+            eightImageView.image = pics[7]
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+      case 12:
+            
+            twelveImageView.image = pics[11]
+            elevenImageView.image = pics[10]
+            tenImageView.image = pics[9]
+            nineImageView.image = pics[8]
+            eightImageView.image = pics[7]
+            sevenImageView.image = pics[6]
+            sixImageView.image = pics[5]
+            fiveImageViews.image = pics[4]
+            fourImageView.image = pics[3]
+            threeImageView.image = pics[2]
+            twoImageView.image = pics[1]
+            oneImageView.image = pics[0]
+            
+    
         default: break
         }
         
